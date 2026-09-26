@@ -1,15 +1,16 @@
 {
-  "name": "rwsite/wp-defaultauthor-plugin",
-  "description": "WordPress Plugin. Add Default post author settings for post publish metabox",
-  "minimum-stability": "stable",
-  "license": "proprietary",
+  "name": "tikhomirov/wp-defaultauthor-plugin",
+  "description": "Плагин для установки единого автора по умолчанию при публикации или сохранении черновика новой записи в WordPress.",
   "type": "wordpress-plugin",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Aleksei Tikhomirov",
-      "email": "alex@rwsite.ru"
+      "email": "alex@rwsite.ru",
+      "homepage": "https://rwsite.ru"
     }
   ],
   "require": {
+    "php": ">=7.4"
   }
 }
