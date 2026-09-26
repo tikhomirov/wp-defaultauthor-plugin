@@ -20,6 +20,7 @@
 
 ### Через Composer (рекомендуется)
 ```bash
+composer config repositories.tikhomirov-wp-defaultauthor-plugin git https://github.com/tikhomirov/wp-defaultauthor-plugin.git
 composer require tikhomirov/wp-defaultauthor-plugin
 ```
 
