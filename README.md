@@ -1,13 +1,45 @@
-# WP default author plugin
-Wordpress default author plugin
+# WordPress Default Post Author (`wp-defaultauthor-plugin`)
 
-## How to use:
-0. Install and activate the plugin
-1. Create default author and set role "editor" or highest ('editor', 'author', 'administrator').
-![create author](https://i.imgur.com/I0XygRp.png)
-2. Choose default author for current user (or somebody user)
-![Choose default author](https://i.imgur.com/WrxbbV5.png)  
-3. Create a new post, and save. Post author will be changes to default.
-![Create a new post](https://i.imgur.com/BaXtrI7.png)
-4. Profit! <br>
-![Profitt](https://i.imgur.com/j09z0kV.png)
+![WordPress Plugin](https://img.shields.io/badge/WordPress-5.0%2B-blue.svg)
+![PHP Support](https://img.shields.io/badge/PHP-7.4%20%7C%208.0%20%7C%208.1%20%7C%208.2%20%7C%208.3-777BB4.svg)
+![License](https://img.shields.io/badge/License-GPLv2-green.svg)
+
+Плагин для установки единого автора по умолчанию при публикации или сохранении черновика новой записи в WordPress.
+
+---
+
+## 🚀 Возможности
+
+- 👤 **Выбор автора по умолчанию:** Настройка технического или профильного автора в метабоксе редактирования.
+- ⚡ **Автоматическая смена:** Замена автора записи перед сохранением.
+- 🔒 **Права доступа:** Ограничение выбора авторов по ролям ('editor', 'administrator').
+
+---
+
+## 📥 Установка
+
+### Через Composer (рекомендуется)
+```bash
+composer config repositories.tikhomirov-wp-defaultauthor-plugin git https://github.com/tikhomirov/wp-defaultauthor-plugin.git
+composer require tikhomirov/wp-defaultauthor-plugin
+```
+
+### Вручную
+1. Скачайте ZIP-архив репозитория.
+2. Распакуйте в директорию `/wp-content/plugins/wp-defaultauthor-plugin/`.
+3. Активируйте плагин в админ-панели **Плагины → Установленные**.
+
+---
+
+## 💻 Использование
+
+1. Перейдите в настройки плагина или откройте окно создания записи.
+2. Назначьте пользователя с ролью `Editor` или `Administrator` в качестве автора по умолчанию.
+3. При публикации новых постов авторство будет автоматически присваиваться выбранному пользователю.
+
+---
+
+## 🛠️ Требования
+
+- **WordPress:** 5.0 или выше
+- **PHP:** 7.4, 8.0, 8.1, 8.2, 8.3
